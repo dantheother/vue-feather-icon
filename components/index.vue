@@ -2,7 +2,7 @@
   <component :is="name"></component>
 </template>
 <script>
-  module.exports = {
+  export default {
     props: ['type'],
     computed: {
       name() {
