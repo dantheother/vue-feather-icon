@@ -238,6 +238,7 @@ module.exports = function(Vue) {
   Vue.component('feather-x-square', require('./components/x-square.vue').default)
   Vue.component('feather-x', require('./components/x.vue').default)
   Vue.component('feather-zap', require('./components/zap.vue').default)
+  Vue.component('feather-zap-off', require('./components/zap-off.vue').default)
   Vue.component('feather-zoom-in', require('./components/zoom-in.vue').default)
   Vue.component('feather-zoom-out', require('./components/zoom-out.vue').default)
 }
